@@ -23,4 +23,3 @@ export const CountryContext:React.FC<{children: ReactNode}> = ({children}) => {
         <Context.Provider value={{counties, setCounties, refresh, setRefresh}} >{children}</Context.Provider>
     )
 }
-
